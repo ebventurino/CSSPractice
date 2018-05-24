@@ -16,7 +16,7 @@ header ul li {
  color: grey;
 }
 
-a .disabled {
+a .disabled, a.disabled {
     color: purple;
 }
 
@@ -30,4 +30,26 @@ a .disabled {
 
 .parent div:nth-child(3) {
     color: blue;
+}
+
+.parent div:nth-child(1) + h4 {
+    background-color: red;
+}
+
+.parent div:nth-child(3) + h4 {
+    background-color: blue;
+}
+
+.grandparent > h4 {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+span > input {
+    line-height: 25px;
 }
