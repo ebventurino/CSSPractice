@@ -1,0 +1,21 @@
+header {
+    border: 1px solid goldenrod
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    margin: .2em;
+    color:#ff0000;
+}
+
+.disabled {
+ color: grey;
+}
+
+a > .disabled {
+    color: purple;
+}
